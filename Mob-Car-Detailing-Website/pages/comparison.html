@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compare Packages — Mob Car Detailing</title>
+<meta name="description" content="Compare Mob Car Detailing's Essential, Premium, and Signature Ceramic packages — mobile car detailing in Lahore, priced by vehicle type.">
+<link rel="icon" type="image/png" href="../assets/images/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/images/favicon-180.png">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div id="headerMount"></div>
+
+<main>
+
+  <!-- ============ 1. COMPARISON HERO ============ -->
+  <section class="section-tight">
+    <div class="container">
+      <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span><span class="current">Compare Packages</span></div>
+      <div class="section-head center" style="max-width:640px;">
+        <h1 style="font-size:clamp(1.9rem,3vw + 1rem,2.5rem);">Compare Our Detailing Packages</h1>
+        <p>Find the right level of care for your vehicle.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. VEHICLE SELECTOR (REUSED) ============ -->
+  <section class="section-tight section--alt">
+    <div class="container">
+      <div id="vehicleSelectorMount"></div>
+    </div>
+  </section>
+
+  <!-- ============ 3. COMPARISON TABLE ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="compare-toggle" id="compareToggle">
+        <button class="is-active" data-view="level">By Service Level</button>
+        <button data-view="vehicle">By Vehicle Type</button>
+      </div>
+      <div class="compare-table-wrap" id="compareTableWrap"></div>
+      <div class="compare-cards" id="compareCardsWrap"></div>
+    </div>
+  </section>
+
+  <!-- ============ 4. NOT SURE WHICH ONE ============ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="quiz-card" id="quizCard"></div>
+    </div>
+  </section>
+
+  <!-- ============ 5. ADD-ON SERVICES GRID ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Upgrade</span>
+        <h2>Add Extra Care</h2>
+        <p>Layer these onto any package during booking.</p>
+      </div>
+      <div class="addon-grid" id="addonGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ 6. FAQ ============ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">FAQ</span>
+        <h2>Package Questions</h2>
+      </div>
+      <div id="faqMount"></div>
+    </div>
+  </section>
+
+</main>
+
+<div id="footerMount"></div>
+<div id="conversionBarMount"></div>
+
+<script src="../js/data.js"></script>
+<script src="../js/state.js"></script>
+<script src="../js/components.js"></script>
+<script src="../js/comparison.js"></script>
+</body>
+</html>
