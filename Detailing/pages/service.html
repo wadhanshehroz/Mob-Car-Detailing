@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Service — Mob Car Detailing</title>
+<meta name="description" id="pageMetaDescription" content="Mobile car detailing services in Melbourne from Mob Car Detailing — we come to you, no drop-off required.">
+<link rel="icon" type="image/png" href="../assets/images/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/images/favicon-180.png">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div id="headerMount"></div>
+
+<main>
+
+  <!-- ============ 1. SERVICE HERO ============ -->
+  <section class="hero section-tight">
+    <div class="container">
+      <div class="breadcrumb" id="breadcrumbMount"></div>
+      <div class="hero-grid reverse">
+        <div class="hero-media">
+          <div class="ba-wrap" style="max-width:none;">
+            <img id="heroServiceImg" src="" alt="" style="width:100%;border-radius:var(--radius-lg);box-shadow:var(--shadow-md);border:1px solid var(--color-border);aspect-ratio:16/10;object-fit:cover;display:block;">
+          </div>
+        </div>
+        <div class="hero-copy">
+          <h1 id="serviceName"></h1>
+          <p class="sub" id="serviceValueProp"></p>
+          <div class="hero-meta-row">
+            <span class="badge badge-soft" id="servicePriceBadge"></span>
+            <span class="badge badge-soft" id="serviceDurationBadge"></span>
+            <span class="stars" id="serviceStars"></span>
+          </div>
+          <div class="hero-cta-row">
+            <a href="booking.html" class="btn btn-primary" id="serviceBookCta">Book This Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. WHAT'S INCLUDED ============ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Scope of Work</span>
+        <h2>What's Included</h2>
+      </div>
+      <div class="grid" id="includedGrid" style="grid-template-columns:repeat(2,1fr);gap:14px;"></div>
+      <p class="caption" id="addOnsNote" style="margin-top:18px;"></p>
+    </div>
+  </section>
+
+  <!-- ============ 3. PROCESS STEPS ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Our Process</span>
+        <h2>How We Do It</h2>
+      </div>
+      <div class="steps" id="processStepsMount"></div>
+    </div>
+  </section>
+
+  <!-- ============ 4. BEFORE / AFTER ============ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Results</span>
+        <h2>See The Difference</h2>
+      </div>
+      <div id="beforeAfterMount"></div>
+    </div>
+  </section>
+
+  <!-- ============ 5. PRICING SNAPSHOT ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Pricing</span>
+        <h2>Pricing by Vehicle Size</h2>
+      </div>
+      <div class="card" style="max-width:640px;margin-inline:auto;overflow:hidden;">
+        <table style="width:100%;border-collapse:collapse;" id="pricingTable"></table>
+      </div>
+      <p class="caption" style="text-align:center;margin-top:14px;">Heavily soiled vehicles may incur an additional fee, assessed on arrival.</p>
+      <div style="text-align:center;margin-top:20px;">
+        <a href="booking.html" class="btn btn-primary">Get Exact Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. RELATED SERVICES ============ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Frequently Paired With</span>
+        <h2>Related Services</h2>
+      </div>
+      <div class="grid" id="relatedGrid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));"></div>
+    </div>
+  </section>
+
+  <!-- ============ 7. SERVICE-SPECIFIC FAQ ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">FAQ</span>
+        <h2 id="faqHeading">Questions About This Service</h2>
+      </div>
+      <div id="faqMount"></div>
+    </div>
+  </section>
+
+  <!-- ============ 8. CTA FOOTER BLOCK ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="final-cta">
+        <h2 id="ctaHeading"></h2>
+        <div class="hero-cta-row">
+          <a href="booking.html" class="btn btn-primary" id="ctaBookBtn">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="footerMount"></div>
+<div id="conversionBarMount"></div>
+
+<script src="../js/data.js"></script>
+<script src="../js/state.js"></script>
+<script src="../js/components.js"></script>
+<script src="../js/service.js"></script>
+</body>
+</html>
